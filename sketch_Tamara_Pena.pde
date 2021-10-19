@@ -30,10 +30,10 @@ if(mouseX>50 && mouseY>50 && mouseX<150 && mouseY<150){
   Pres=Pres+1;
   t=t+5;
   
-   if (t>=200){ // si el puntero estando en la figura pasa los 200 segundos la figura se pondra en rojo como modo alerta
+   if (t>=200){ // si el puntero estando en la figura pasa los 200 segundos la figura se pondra amarillo como modo de precaución
      fill(Yellow); // color amarillo que indica que se está acercando al limite de tiempo 
    }
-     if (t>=300){       
+     if (t>=300){ //si el puntero estando en la figura pasa los 300 segundos la figura se pondra de color rojo como modo de alerta
      fill(Red); // color rojo indica que ya ha sobrepasado el limite de tiempo
      text(a,70,310);
      text(b,70,340);
